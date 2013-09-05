@@ -1,0 +1,18 @@
+{
+  "name": "chef-client-rax",
+  "chef_environment": "_default",
+  "run_list": [
+    "recipe[apache]",
+    "recipe[motd]",
+    "recipe[users]"
+  ],
+  "normal": {
+    "tags": [
+
+    ],
+    "company": "rax000",
+    "pci": {
+      "in_scope": true
+    }
+  }
+}
