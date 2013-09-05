@@ -2,7 +2,7 @@
   "name": "chef-client-rax",
   "chef_environment": "_default",
   "run_list": [
-    "recipe[apache]",
+    "role[webserver]",
     "recipe[motd]",
     "recipe[users]"
   ],
